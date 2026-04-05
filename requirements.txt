@@ -1,0 +1,12 @@
+chromadb
+sentence-transformers
+transformers
+torch
+Pillow
+numpy
+scikit-learn
+tqdm
+typing-extensions
+tokenizers
+huggingface-hub
+accelerate
