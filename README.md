@@ -151,6 +151,6 @@ huggingface-hub
 ## Author
 
 **Eshal Fatima** — AI Engineer
-AI Researcher @ Swan Labs | Python Developer Intern @ Arch Technologies
+AI Researcher @ Swan Labs 
 
 [LinkedIn](https://www.linkedin.com/in/eshal-fatima-) | [GitHub](https://github.com/Eshal-ven) | [Kaggle](https://www.kaggle.com/eashelfatima)# CrossIndexRAG
