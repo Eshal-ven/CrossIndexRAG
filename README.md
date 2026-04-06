@@ -1,6 +1,6 @@
 # CrossIndexRAG
 
-A multimodal Retrieval-Augmented Generation (RAG) system that retrieves across **text, image, and table** data in a single unified pipeline — with cross-encoder reranking, score fusion, and hallucination control through modality agreement.
+A multimodal Retrieval-Augmented Generation (RAG) system that retrieves across **text, image, and table** data in a single unified pipeline with cross-encoder reranking, score fusion, and hallucination control through modality agreement.
 
 ---
 
@@ -9,7 +9,7 @@ A multimodal Retrieval-Augmented Generation (RAG) system that retrieves across *
 Most RAG systems only search text. CrossIndexRAG searches all three modalities at once and combines the results intelligently:
 
 1. **Hybrid Retrieval** — pulls candidates from text, image, and table indexes simultaneously
-2. **Cross-Encoder Reranking** — a second-stage model rescores every candidate against the query for higher precision
+2. **Cross-Encoder Reranking** — a second stage model rescores every candidate against the query for higher precision
 3. **Score Fusion** — combines embedding similarity and cross-encoder scores using weighted min-max normalisation
 4. **Modality Agreement** — flags a response as "safe" only when multiple independent modalities (e.g. both a text document and a table row) agree — reducing hallucination risk
 
